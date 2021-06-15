@@ -1,0 +1,77 @@
+		.menu {
+			margin: 0px;
+			background: #ebf5fc; 
+			padding-right: 10px;
+			width: 100%;
+		}
+		.menu ul {
+			width: 100%;
+		 margin: 0; 
+		 padding: 0; 
+		 list-style: none;
+		}
+		.menu ul li {
+			float: left; 
+			margin-top: 0px;
+			position: relative;}
+		.menu ul li a{
+			background: #ebf5fc; 
+			display: block; 
+			padding: 10px 25px; 
+			color: #32a3b1; 
+			text-decoration: none; }
+		.menu ul li a:hover {
+			background: #fff;}
+
+		.menu ul li ul{position: absolute; 
+			left: -999999px;}
+		.menu ul li:hover ul{
+			left: 0px;}
+		.menu ul li ul li{
+			float: none; 
+			width: 250px;}
+		.menu ul li ul li a{
+			background: #ebf5fc; 
+			display: block; 
+			padding: 10px 45px;}
+			.checkbtn{
+					font-size: 30px;
+					color: black;
+					float: right;
+					line-height: 80px;
+					margin-right: 40px;
+					cursor: pointer;
+					display: none;
+				}
+				#check{
+					display: none;
+				}
+
+
+	@media screen and (max-width: 768px){
+				
+				.menu {
+				}
+				.menu ul{
+					
+				}
+				.menu ul li {
+					
+					margin-left: 50%;
+					margin-right: 50%;
+					display: block;
+					float: center;
+					left: -9990px;
+					transition: all .2s;
+				}
+
+				.checkbtn{
+					display: block;
+				}
+				#check:checked ~ .menu ul li {
+					left: 0;
+				}
+
+				
+	
+	}
