@@ -27,7 +27,7 @@
 				
 				<span class="fab fa-pinterest"><a href="http://pinterest.com/pin/create/button/?url=&description=" target="_blank" title="Pin it" onclick="window.open('http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(document.URL) + '&description=' + encodeURIComponent(document.title)); return false;">Pinterest</a></span>
 
-				<span class="fas fa-envelope"><a href="mailto:info@example.com?&subject=&body=https://hasansir.com/">Email</a></span>
+				<span class="fas fa-envelope"><a href="mailto:info@example.com?&subject=&body=https://hasan99.com/">Email</a></span>
 			</div>
 
 			<div class="post-pagination">
